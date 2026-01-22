@@ -18,7 +18,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 ul {
     list-style: none;
@@ -399,10 +399,6 @@ header nav .form i {
 }
 .portfolio .imgs-container .box:hover img {
     transform: rotate(3deg) scale(1.1);
-    -webkit-transform: rotate(3deg) scale(1.1);
-    -moz-transform: rotate(3deg) scale(1.1);
-    -ms-transform: rotate(3deg) scale(1.1);
-    -o-transform: rotate(3deg) scale(1.1);
 }
 @media (min-width: 768px) {
     .portfolio .imgs-container .box {
@@ -886,6 +882,7 @@ header nav .form i {
     padding: 20px 20px 20px 60px;
     caret-color: var(--main-color);
     width: calc(100% - 130px);
+    color: white;
 }
 .subscribe form input[type="submit"] {
     width: 130px;
